@@ -1,29 +1,20 @@
 name: pangeo
 channels:
   - conda-forge
-  - intake
-  - default
 dependencies:
-  - python=3.6
-  - xarray
-  - dask
-  - distributed
-  - gcsfs
-  - intake
-  - intake-xarray
-  - zarr
-  - matplotlib
-  - numcodecs
-  - python-blosc
-  - lz4
+  - python=3.7
+  - xarray=0.10.9
+  - dask=0.19
+  - distributed=1.23
+  - matplotlib=3.0
   - nomkl
-  - nbserverproxy
-  - jupyter
-  - ipywidgets
-  - graphviz
+  - nbserverproxy=0.8
+  - jupyter=1.0
+  - ipywidgets=7.4
+  - graphviz=2.40
   - jupyterlab=0.35
-  - nodejs
+  - nodejs=8.12
+  - rasterio=1.0.8
   - pip:
     - kubernetes
-    - graphviz
     - git+https://github.com/dask/dask-kubernetes.git
