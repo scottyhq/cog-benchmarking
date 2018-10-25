@@ -16,8 +16,12 @@ dependencies:
   - nodejs=8.12
   - libgdal=2.3
   - gdal=2.3
+  - boto3=1.9.31
+  - requests=2.20
+  - pandas=0.23
   - pip:
     - rasterio==1.0.8
+    - wurlitzer
     - satsearch
     - kubernetes
     - git+https://github.com/dask/dask-kubernetes.git
