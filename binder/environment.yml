@@ -18,5 +18,6 @@ dependencies:
   - gdal=2.3
   - pip:
     - rasterio==1.0.8
+    - satsearch
     - kubernetes
     - git+https://github.com/dask/dask-kubernetes.git
