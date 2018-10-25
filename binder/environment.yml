@@ -2,19 +2,21 @@ name: pangeo
 channels:
   - conda-forge
 dependencies:
+  - nomkl
   - python=3.7
   - xarray=0.10.9
   - dask=0.19
   - distributed=1.23
   - matplotlib=3.0
-  - nomkl
   - nbserverproxy=0.8
   - jupyter=1.0
   - ipywidgets=7.4
   - graphviz=2.40
   - jupyterlab=0.35
   - nodejs=8.12
-  - rasterio=1.0.8
+  - libgdal=2.3
+  - gdal=2.3
   - pip:
+    - rasterio==1.0.8
     - kubernetes
     - git+https://github.com/dask/dask-kubernetes.git
