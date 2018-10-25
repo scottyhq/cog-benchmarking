@@ -4,7 +4,7 @@ cog-benchmarking
 
 cloud-optimized-geotif benchmarking with xarray, rasterio, dask
 
-Try these notebooks on pangeo.binder.io_:
+Try these notebooks on pangeo.binder.io_ by clicking the logo below!
 
 .. image:: http://binder.pangeo.io/badge.svg :target: http://binder.pangeo.io/v2/gh/scottyhq/cog-benchmarking/master
 
