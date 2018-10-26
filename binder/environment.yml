@@ -14,8 +14,7 @@ dependencies:
   - graphviz=2.40
   - jupyterlab=0.35
   - nodejs=8.12
-  - libgdal=2.3
-  - gdal=2.3
+  - libgdal=2.3.2
   - boto3=1.9.31
   - requests=2.20
   - pandas=0.23
