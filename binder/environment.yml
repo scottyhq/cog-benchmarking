@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - nomkl
-  - python=3.7
+  - python=3.6
   - xarray=0.10.9
   - dask=0.19
   - distributed=1.23
