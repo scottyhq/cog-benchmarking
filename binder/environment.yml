@@ -20,7 +20,7 @@ dependencies:
   - hvplot=0.2
   - requests=2.20
   - pandas=0.23
-  - dask-kubernetes=0.6
+  - dask-kubernetes
   - rasterio=1.0.10
   - pip
 #    - wurlitzer==1.0.2
