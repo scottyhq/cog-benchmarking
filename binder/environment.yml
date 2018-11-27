@@ -4,7 +4,7 @@ channels:
 dependencies:
   - nomkl
   - curl=7.61.0
-  - ca-certificates=2018.8.24
+#  - ca-certificates=2018.8.24
   - python=3.6
   - xarray=0.10.9
   - dask=0.19
