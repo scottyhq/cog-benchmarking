@@ -21,7 +21,7 @@ dependencies:
   - requests=2.20
   - pandas=0.23
   - dask-kubernetes=0.6
-  - pip
+  - pip:
     - rasterio==1.0.10
     - wurlitzer==1.0.2
 
