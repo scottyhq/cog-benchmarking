@@ -3,11 +3,11 @@ channels:
   - conda-forge
 dependencies:
   - nomkl
-  - curl=7.61
+  - curl=7.61.0
   - python=3.6
   - xarray=0.10.9
   - dask=0.20.2
-  - distributed=1.24
+  - distributed=1.23.2
   - matplotlib=3.0
   - nbserverproxy=0.8
   - jupyter=1.0
