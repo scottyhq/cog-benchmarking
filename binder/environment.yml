@@ -15,7 +15,7 @@ dependencies:
   - graphviz=2.38
   - jupyterlab=0.35
   - nodejs=8.12
-  - libgdal=2.3.2
+  - libgdal=2.2.4
   - boto3=1.9
   - hvplot=0.2
   - requests=2.20
