@@ -4,6 +4,7 @@ channels:
 dependencies:
   - nomkl
   - curl=7.61.0
+  - ca-certificates=2018.8.24
   - python=3.6
   - xarray=0.10.9
   - dask=0.19
@@ -21,7 +22,8 @@ dependencies:
   - requests=2.20
   - pandas=0.23
   - dask-kubernetes=0.6
+  - rasterio=1.0.7
   - pip:
-    - rasterio==1.0.10
-    - wurlitzer==1.0.2
-    - kubernetes==7.0.0
+#    - rasterio==1.0.10
+#    - wurlitzer==1.0.2
+#    - kubernetes==7.0.0
