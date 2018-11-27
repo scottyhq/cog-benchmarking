@@ -23,6 +23,6 @@ dependencies:
   - dask-kubernetes=0.6
 #  - rasterio=1.0.10
   - pip
-     - rasterio==1.0.10
-#    - wurlitzer==1.0.2
+    - rasterio==1.0.10
+    - wurlitzer==1.0.2
 #    - kubernetes==7.0.0
