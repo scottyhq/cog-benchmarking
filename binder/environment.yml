@@ -3,12 +3,11 @@ channels:
   - conda-forge
 dependencies:
   - nomkl
-  - curl=7.61.0
-#  - ca-certificates=2018.8.24
+  - curl=7.61
   - python=3.6
-  - xarray=0.10.9
-  - dask=0.19
-  - distributed=1.23.2
+  - xarray=0.11
+  - dask=0.20.2
+  - distributed=1.24
   - matplotlib=3.0
   - nbserverproxy=0.8
   - jupyter=1.0
@@ -16,14 +15,13 @@ dependencies:
   - graphviz=2.38
   - jupyterlab=0.35
   - nodejs=8.12
-  - libgdal=2.2.4
+  - libgdal=2.3.2
   - boto3=1.9
   - hvplot=0.2
   - requests=2.20
   - pandas=0.23
   - dask-kubernetes=0.6
-  - rasterio=1.0.7
+  - rasterio=1.0.9
   - pip:
-#    - rasterio==1.0.10
 #    - wurlitzer==1.0.2
 #    - kubernetes==7.0.0
